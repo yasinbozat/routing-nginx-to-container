@@ -15,7 +15,7 @@
 
 ###
 
-###folder: ./service1/
+### folder: ./service1/
 ```
 docker build -t service1 .
 ```
