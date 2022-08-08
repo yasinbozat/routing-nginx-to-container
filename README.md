@@ -2,7 +2,7 @@
 
 ###
 
-<p align="left">Routing the web pages with nginx and gunicorn in Docker.</p>
+Routing the web pages with nginx and gunicorn in Docker. Will be applications running in diffrent  ports and i will show how to running in same port. 
 
 ###
 
@@ -147,14 +147,29 @@ docker build -t service2 .
 
 #### Run the images now
 ```
-sudo docker run -p 3000:3000 -d service1
-sudo docker run -p 4000:4000 -d service2
+docker run -p 3000:3000 -d service1
+docker run -p 4000:4000 -d service2
 ```
 
 #### Now, if you open http://localhost:3000/service1 in browser, you should see the following
 ```
-masa
+This is service 1
 ```
 
+#### and by opening http://localhost:4000/service2, you should get
+```
+This is service 2
+```
+
+#### You see, the applications are running in different ports. Your target is to expose them both in the same port.
+#### Go to the nginx-docker directory and build the nginx image and run it.
+```
+docker build -t nginx-proxy .
+docker run -p 80:80 -d nginx-proxy
+```
+
+#### Now you'll be able to see both the applications running in port 8000, as
+#### http://localhost/service1
+#### http://localhost/service2
 
 
