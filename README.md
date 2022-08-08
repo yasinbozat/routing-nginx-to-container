@@ -14,3 +14,8 @@
 </div>
 
 ###
+
+###folder: ./service1/
+```
+docker build -t service1 .
+```
