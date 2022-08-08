@@ -15,7 +15,14 @@
 
 ###
 
-#### folder: ./service1/
+<h2>
+  <a name="create-the-directories" href="#create-the-directories">
+  </a>
+  Create the directories
+</h2>
+
+
+folder: ./service1/ 
 ```
 docker build -t service1 .
 ```
