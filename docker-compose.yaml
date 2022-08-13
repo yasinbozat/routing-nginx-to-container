@@ -1,0 +1,26 @@
+version: '3'
+services:
+  masa:
+    container_name: masa
+    restart: always
+    build: ./masa/
+    ports:
+      - ":3000"
+  su:
+    container_name: su
+    restart: always
+    build: ./su/
+    ports:
+      - ":4000"
+  kasa:
+    container_name: kasa
+    restart: always
+    build: ./kasa/
+    ports:
+      - ":5000"
+  nginx:
+    container_name: nginx
+    restart: always
+    build: ./web-service/
+    ports:
+      - "80:80"
