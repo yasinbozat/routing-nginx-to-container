@@ -6,6 +6,8 @@ Routing the web pages with nginx and gunicorn in Docker. Will be applications ru
 
 ###
 
+
+
 <div align="left">
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" height="40" width="52" alt="docker logo"  />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" height="40" width="52" alt="python logo"  />
@@ -14,6 +16,10 @@ Routing the web pages with nginx and gunicorn in Docker. Will be applications ru
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flask/flask-original.svg" height="40" width="52" alt="flask logo"  />
 	
 </div>
+
+
+![Untitled Diagram drawio (2)](https://user-images.githubusercontent.com/37029016/184469250-6712517d-3d2b-4709-a101-b7456a73c969.png)
+
 
 ###
 
