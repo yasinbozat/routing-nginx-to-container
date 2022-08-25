@@ -2,7 +2,7 @@
 
 ###
 
-Routing the web pages with nginx and gunicorn in Docker. Will be applications running in diffrent  ports
+Routing the web pages with nginx and gunicorn in Docker. Will be applications running in diffrent  ports.
 
 ###
 
